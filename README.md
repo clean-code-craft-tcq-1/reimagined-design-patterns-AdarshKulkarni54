@@ -69,3 +69,24 @@ Give a summary description of Four design patterns that you choose from the foll
   **Disadvantage**
   
   It might be difficult in maintaining the code if more states are getting added.
+  
+   **Decorator Design Pattern**
+  
+  **---------------------------**
+  
+  It is a Structural design pattern. If you want to add behavior or state to individual objects at run-time this pattern is useful
+  
+  **Example:**
+  
+  When you have created simple Java project in Eclipse and suppose if you have any compiler errors or warnings in the Java file so the error/warning marker gets decorate/created at file level
+  and also at parent folder and root folder level so basically we have file, so we decorate the file with warning or error marker at the runtime as on when you type in the java file
+  
+  **Advantage**
+  
+  Doesn't require inheritance. Decorator is based on Composition, which means it needs an original object to decorate it. This is achieved by creating a constructor on decorator class which accepts a base type of original object.
+  
+  **Disadvantage**
+  
+  It can be complicated to have decorators keep track of other decorators because to look back into multiple layers of the decorator chain starts to push the decorator pattern beyond its true intent.
+  
+  
